@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/png" href="img/fellow_logo_badge.png" />
+
+    <title>Contact Fellow Coworking</title>
+</head>
+<body>
+    <header class="jumbotron mb-0 jumbotron-fluid" id="top">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/fellow_logo_badge.png" height="80" width="80" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fellowNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="fellowNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">membership</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">suites</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">drop-in</a></li>
+                        <li class="nav-item"><a class="nav-link" href="community.html">community</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container" id="contact">
+        <div class="row">
+            <div class="col col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                <h2 class="text-uppercase text-center p-5">We CAN'T WAIT TO MEET You</h2>
+                <p class="pb-3 px-3">Every membership at Fellow begins with a tour of the space and a conversation with one of our Community Managers.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form class="col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <input type="text" class="form-control" placeholder="First name" required>
+                        </div>
+                        <div class="form-group col">
+                            <input type="text" class="form-control" placeholder="Last name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <textarea name="About yourself" class="form-control" cols="30" rows="5" placeholder="* Tell us something about yourself" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <textarea name="Heard about us" class="form-control" rows="5"
+                                placeholder="How did you hear about us?"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="from-group col">
+                        <select class="form-control" required>
+                            <option selected>Choose...</option>
+                            <option>Hotdesk 1 day a week</option>
+                            <option>Hotdesk 2 day a week</option>
+                            <option>Hotdesk 24/7</option>
+                            <option>Permanent desk</option>
+                            <option>I don't know, yet</option>
+                        </select>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn button-primary mt-3">Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row footer-text">
+                <div class="col col-6 text-center">
+                    <h5 class="text-uppercase">Contact Us</h5>
+                    <a
+                        href="https://www.google.com/maps/place/304+W+Pacific+Ave,+Spokane,+WA+99201/@47.6553234,-117.4190364,17z/data=!3m1!4b1!4m5!3m4!1s0x549e186225437437:0x5033257c154f58b1!8m2!3d47.6553234!4d-117.4168477?shorturl=1">
+                        <address>
+                            304 W Pacific Ave Suite #210,<br />
+                            Spokane, WA 99201
+                        </address>
+                    </a>
+                    <a role="button" href="tel:5092636129" class="mb-2"><i class="fa fa-phone"></i> (509) 263-6129</a><br />
+                    <a role="button" href="mailto:management@workatfellow.com"><i
+                            class="fa fa-envelope-o"></i> management@workatfellow.com</a>
+                </div>
+                <div class="col col-1 top">
+                    <a id="top-button" data-value="top" href="#" data-toggle="tooltip" data-placement="top" title="Back to the Top"></a>
+                </div>
+                <div class="col col-5 text-center col-md-4 offset-md-1">
+                    <h5 class="text-uppercase">Follow Us</h5>
+                    <a class="btn btn-social-icon btn-facebook btn-lg mr-2" href="https://www.facebook.com/workatfellow"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-foursquare btn-lg ml-2" href="https://www.instagram.com/fellowcoworkingspokane/"><i
+                            class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas"
+            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=304%20W%20Pacific%20Ave%20Spokane+(Fellow%20Coworking)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <a href='https://www.embedmap.net/'>embed google maps in wordpress</a>
+        <script type='text/javascript'
+            src='https://embedmaps.com/google-maps-authorization/script.js?id=12a2bd5347548031f65493376e23a2e589d0bdd4'></script>
+    
+    </footer>
+    
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+    
+</html>

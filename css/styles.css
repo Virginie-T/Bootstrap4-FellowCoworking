@@ -1,0 +1,111 @@
+.jumbotron {
+  padding: 15px 30px;
+  background-image: linear-gradient(130deg, #03B6B7 17%, #33e0e0 56%, #33e0e0 70%, #03B6B7 100%); }
+
+header .navbar {
+  text-transform: uppercase; }
+  header .navbar .nav-item {
+    transition: all .2s ease-in-out; }
+    header .navbar .nav-item:hover {
+      transform: scale(1.1); }
+    header .navbar .nav-item .nav-link {
+      color: white !important; }
+      header .navbar .nav-item .nav-link:hover {
+        color: #FF9800 !important; }
+
+header #openModal {
+  color: black; }
+
+.button-primary {
+  color: #fff;
+  background: linear-gradient(130deg, #4aa6a6 37%, #33e0e0 100%);
+  border-color: #03B6B7;
+  padding: 10px 20px; }
+
+#intro {
+  background: url("../img/office.jpg") 0 0 no-repeat fixed;
+  overflow: hidden; }
+  #intro .overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2; }
+
+#members {
+  padding: 5rem 0; }
+
+#amenities div {
+  border-radius: 0;
+  border: none; }
+  #amenities div img {
+    border-radius: 0; }
+  #amenities div ul {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    #amenities div ul li {
+      color: #345e87; }
+      #amenities div ul li:first-child {
+        background-color: #345e87;
+        border-color: #345e87;
+        color: white; }
+
+footer {
+  background-image: linear-gradient(130deg, #03B6B7 17%, #33e0e0 56%, #33e0e0 70%, #03B6B7 100%); }
+  footer a, footer h5 {
+    color: white; }
+  footer a:hover {
+    color: #FF9800; }
+  footer h5 {
+    padding-bottom: 1.5rem; }
+  footer .footer-text {
+    padding: 5rem 0; }
+  footer #top-button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color .3s;
+    z-index: 1000; }
+    footer #top-button:after {
+      content: "\f077";
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 2em;
+      line-height: 50px;
+      color: #fff; }
+    footer #top-button:hover {
+      cursor: pointer;
+      background-color: #333;
+      text-decoration: none; }
+    footer #top-button:active {
+      background-color: #555; }
+  footer .btn-social-icon {
+    padding: 0 10px; }
+
+#contact, #community {
+  padding: 6rem 0; }
+  #contact h2, #community h2 {
+    text-shadow: 3px 2px 0px #03B6B7; }
+
+#community img {
+  height: -webkit-fill-available; }
+
+#community .carousel-inner {
+  background-image: linear-gradient(130deg, #03B6B7 17%, #33e0e0 56%, #33e0e0 70%, #03B6B7 100%);
+  height: 36rem; }
+  #community .carousel-inner .carousel-caption {
+    background: linear-gradient(130deg, #4aa6a6 37%, #33e0e0 100%);
+    border: 2px solid white;
+    padding: 10px 0 0 0; }
+
+@media only screen and (max-width: 760px) {
+  footer div:nth-child(2) h5 {
+    padding-top: 3rem; }
+  #top-button {
+    display: none !important; } }
