@@ -1,2 +1,2 @@
-# Bootstrap4-Redesign-FellowCoworking
-Redesign Fellow Coworking website (https://www.workatfellow.com/).
+# Bootstrap4 Redesign Project
+Redesign Fellow Coworking website (www.workatfellow.com) using Bootstrap4.
